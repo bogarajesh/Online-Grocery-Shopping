@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ONLINE GROCERY SHOPPING</string>
+    <string-array name="Quantity">
+        <item>12</item>
+        <item>24</item>
+        <item>36</item>
+    </string-array>
+</resources>

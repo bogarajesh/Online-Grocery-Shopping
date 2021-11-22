@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    tools:context=".Signup_page">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Shop Name:-"
+        android:id="@+id/tv_shop_name"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:id="@+id/Shop_Name"
+        android:textColor="#000"
+        android:hint="Shop Name"
+        android:textColorHint="#B8ABAB"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/tv_shop_name"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email Id:-"
+        android:id="@+id/tv_email_address"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFEFE"
+        android:inputType="textEmailAddress"
+        android:id="@+id/Email_id"
+        android:textColor="#000"
+        android:hint="Email id"
+        android:textColorHint="#B8ABAB"
+        android:layout_below="@+id/tv_email_address"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter GST Number:-"
+        android:id="@+id/tv_gst_number"
+        android:layout_marginTop="130dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:id="@+id/GST_No"
+        android:textColor="#000"
+        android:hint="GST No"
+        android:textColorHint="#B8ABAB"
+        android:inputType="textPostalAddress"
+        android:layout_below="@+id/tv_gst_number"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Address:-"
+        android:id="@+id/tv_address"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFCFC"
+        android:id="@+id/Adress"
+        android:textColor="#000"
+        android:hint="Address"
+        android:textColorHint="#B8ABAB"
+        android:inputType="textPostalAddress"
+        android:layout_below="@+id/tv_address"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile Number:-"
+        android:id="@+id/tv_mobile_no"
+        android:layout_marginTop="270dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FAF8F8"
+        android:inputType="phone"
+        android:id="@+id/Mobile_Number"
+        android:textColor="#000"
+        android:hint="Mobile No"
+        android:textColorHint="#B8ABAB"
+        android:layout_below="@+id/tv_mobile_no"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password:-"
+        android:id="@+id/tv_password"
+        android:layout_marginTop="340dp"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:hint="Password"
+        android:textColorHint="#B8ABAB"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:autoText="false"
+        android:background="#FDFDFD"
+        android:visibility="visible"></EditText>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-Enter Password:-"
+        android:id="@+id/tv_enter_password"
+        android:layout_marginTop="410dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FDFAFA"
+        android:inputType="textPassword"
+        android:id="@+id/Repassword"
+        android:textColor="#000"
+        android:hint="Re-Enter Password"
+        android:textColorHint="#B8ABAB"
+        android:layout_below="@+id/tv_enter_password"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="help ?"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="350dp"
+        android:textColor="#000"
+        />
+
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:background="#00BCD4"
+        android:text="REGISTER"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+
+
+
+
+</RelativeLayout>

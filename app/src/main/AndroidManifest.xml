@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinegroceryshopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cart"
+        android:label="ONLINE GROCERY SHOPPING"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".Onion" />
+        <activity android:name=".CreamOnion" />
+        <activity android:name=".Classic" />
+        <activity android:name=".ButterCookies" />
+        <activity android:name=".MarieLight" />
+        <activity android:name=".Frooti" />
+        <activity android:name=".Fizz" />
+        <activity android:name=".Sprite" />
+        <activity android:name=".Thumbsup" />
+        <activity android:name=".Murukku" />
+        <activity android:name=".Moong" />
+        <activity android:name=".Khatta" />
+        <activity android:name=".Mix" />
+        <activity android:name=".Sev" />
+        <activity android:name=".Cups" />
+        <activity android:name=".Masala" />
+        <activity android:name=".Salted" />
+        <activity android:name=".Tamato" />
+        <activity android:name=".Crunch" />
+        <activity android:name=".Munch" />
+        <activity android:name=".KitKat" />
+        <activity android:name=".Gems" />
+        <activity android:name=".Silk" />
+        <activity android:name=".DairyMilk" />
+        <activity android:name=".Nutrichoice" />
+        <activity android:name=".Bourbon" />
+        <activity android:name=".Nariyal" />
+        <activity android:name=".Doodh" />
+        <activity android:name=".Bounce" />
+        <activity android:name=".DarkFantasy" />
+        <activity android:name=".VitaMarie" />
+        <activity android:name=".GoodDay" />
+        <activity android:name=".Krackjack" />
+        <activity android:name=".Monaco" />
+        <activity android:name=".ParleG" />
+        <activity android:name=".AddCart" />
+        <activity android:name=".Colddrinks" />
+        <activity android:name=".Haldirams" />
+        <activity android:name=".Lays" />
+        <activity android:name=".Gopal" />
+        <activity android:name=".Balaji" />
+        <activity android:name=".Nestle" />
+        <activity android:name=".Cadbury" />
+        <activity android:name=".Patanjali" />
+        <activity android:name=".Sunfeast" />
+        <activity android:name=".Britannia" />
+        <activity android:name=".Parle" />
+        <activity android:name=".Home_page" />
+        <activity android:name=".Signup_page" />
+        <activity android:name=".Login_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

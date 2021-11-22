@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456124676",
+    "firebase_url": "https://online-grocery-shopping-4a98c.firebaseio.com",
+    "project_id": "online-grocery-shopping-4a98c",
+    "storage_bucket": "online-grocery-shopping-4a98c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456124676:android:f1de68e8389c7002228851",
+        "android_client_info": {
+          "package_name": "com.example.onlinegroceryshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456124676-rkdmei9r5c1qjhojib6fcm6ml46fp81c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxxHf-G0rqChBpsF0LpIiThRHwtAf3F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456124676-rkdmei9r5c1qjhojib6fcm6ml46fp81c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
